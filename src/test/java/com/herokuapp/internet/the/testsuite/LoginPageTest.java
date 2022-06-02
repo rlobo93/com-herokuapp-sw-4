@@ -26,6 +26,7 @@ public class LoginPageTest extends TestBase {
         String expectedMessage = "Secure Area";
         String actualMessage= loginPage.getSecureAreaMessage();
         Assert.assertEquals(expectedMessage, actualMessage, "Login page not displayed");
+        System.out.println("The changes has been done by Purvi");
 
     }
 
